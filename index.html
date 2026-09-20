@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>QuantumCore Gaming</title>
+  <meta name="description" content="QuantumCore Gaming — official website. Idle empires, big dreams, built one tap at a time." />
+  <link rel="icon" href="icon-idle-pizza-tycoon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="#top">
+        <span class="brand-badge">🎮</span>
+        <span>QuantumCore Gaming</span>
+      </a>
+      <nav>
+        <a href="#games">Games</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero wrap">
+      <h1>QuantumCore Gaming</h1>
+      <p id="studio-tagline">Idle empires. Big dreams. Built one tap at a time.</p>
+    </section>
+
+    <section class="games wrap" id="games">
+      <h2 class="section-title">Our Games</h2>
+      <div class="games-grid" id="games-grid">
+        <div class="empty-state">Loading games…</div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <div class="wrap">
+      <p>Questions or feedback? <a id="contact-email" href="mailto:quantumcoregaming10@gmail.com">quantumcoregaming10@gmail.com</a></p>
+      <p>© <span id="year"></span> QuantumCore Gaming. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

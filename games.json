@@ -1,0 +1,21 @@
+{
+  "_comment": "Ek naya game add karna ho to bas neechay array mein ek naya { } object add kar dein aur uska icon file (jaise icon-<id>.svg ya .png) isi folder ke root mein upload kar dein. Website automatically naya card dikha dega — kisi HTML/CSS ko chhedne ki zaroorat nahi.",
+  "studio": {
+    "name": "QuantumCore Gaming",
+    "tagline": "Idle empires. Big dreams. Built one tap at a time.",
+    "email": "quantumcoregaming10@gmail.com"
+  },
+  "games": [
+    {
+      "id": "idle-pizza-tycoon",
+      "name": "Idle Pizza Tycoon: Food Empire",
+      "tagline": "Build your dream pizza empire, one slice at a time",
+      "description": "Start with a single pizza oven and grow it into a worldwide food empire. Hire staff, unlock new recipes, upgrade your kitchens, and watch the profits roll in — even while you're away.",
+      "icon": "icon-idle-pizza-tycoon.svg",
+      "accentColor": "#ff5e57",
+      "status": "live",
+      "playstoreUrl": "https://play.google.com/store/apps/details?id=quantum.core.idle.pizza.house.game",
+      "platforms": ["android"]
+    }
+  ]
+}
