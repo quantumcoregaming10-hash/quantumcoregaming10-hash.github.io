@@ -1,3 +1,4 @@
+OWNERDOMAIN=quantumcoregaming10-hash.github.io
 google.com, pub-2169290026589776, DIRECT, f08c47fec0942fa0
 
 vungle.com,6aa95eb18770bfafcf0d47ce,DIRECT,c107d686becd2d77
